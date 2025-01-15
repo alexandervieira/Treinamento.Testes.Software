@@ -8,6 +8,7 @@
         public Funcionario(string nome, double salario)
         {
             if(string.IsNullOrEmpty(nome)) { throw new ArgumentNullException("Informe o nome do funcionário"); }
+            Nome = nome;            
             DefinirSalario(salario);
             DefinirHabilidades();
         }
@@ -36,7 +37,7 @@
 
         private void DefinirSalario(double salario)
         {
-            if (salario < 1200) throw new Exception("Salário inferior ao permitido");
+            if (salario < 500) throw new Exception("Salário inferior ao permitido");
 
             Salario = salario;
             if (salario < 2000) NivelProfissional = NivelProfissional.Junior;
