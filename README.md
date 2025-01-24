@@ -8,7 +8,7 @@
 
 Consulte o meu perfil <a href="https://github.com/alexandervieira/alexandervieira/blob/master/README.md">aqui</a>.
 
-<h1 align="center" style="font-weight: bold;">Design Partterns 💻</h1>
+<h1 align="center" style="font-weight: bold;">Testes de Software 💻</h1>
 
 ## Índice
 
