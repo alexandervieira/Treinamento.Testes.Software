@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="FluentValidation" Version="11.11.0" />
-    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="fluentvalidation" Version="11.11.0" />
+    <PackageReference Include="mediatr" Version="11.0.1" />
   </ItemGroup>
 </Project>
